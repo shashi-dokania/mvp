@@ -1,0 +1,25 @@
+{
+  "name": "2015-10-mvp",
+  "description": "ParknGo",
+  "main": "index.js",
+  "authors": [
+    "shashi"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/shashi-dokania/2015-10-mvp",
+  "moduleType": [
+    "globals",
+    "node"
+  ],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "~1.4.7",
+    "angular-route": "~1.4.7"
+  }
+}
