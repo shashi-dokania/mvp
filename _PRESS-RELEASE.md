@@ -1,4 +1,4 @@
-# Project Name #
+# Park n Go #
 
 <!-- 
 > This material was originally posted [here](http://www.quora.com/What-is-Amazons-approach-to-product-development-and-product-management). It is reproduced here for posterities sake.
@@ -18,27 +18,44 @@ Once the project moves into development, the press release can be used as a touc
  
 ## Heading ##
   > Name the product in a way the reader (i.e. your target customers) will understand.
+  
+  Park n Go!
+  
 
 ## Sub-Heading ##
   > Describe who the market for the product is and what benefit they get. One sentence only underneath the title.
+  
+  For riders who want to get rid of parking woes.
 
 ## Summary ##
   > Give a summary of the product and the benefit. Assume the reader will not read anything else so make this paragraph good.
+ 
+  It applies to anyone who are frequent riders and looking for parking spaces to park their vehicle. This app allows you to rent parking spaces in the desired locality. The spaces are listed by the owners at certain rate (per hour, per day etc..) and people looking for spaces in that locality can book the space. This prevents them from parking woes especially in the places where resources are really stretched and restricts people to certain mode of transportaion due to parking problems. This increases their commute time exponentially where they could have used the same time doing something they loved.
 
 ## Problem ##
   > Describe the problem your product solves.
+ 
+  This app helps to reduce the parking woes of riders.
 
 ## Solution ##
   > Describe how your product elegantly solves the problem.
+  
+  This product allows people to list any parking space they have for rent. This in turn allows users to book the space if there are any available listings for the desired locality on that day and time. This helps in better planning and relieves from unwanted stress of searching for parking. It saves time and makes the overall experience smooth and relaxing.
 
 ## Quote from You ##
   > A quote from a spokesperson in your company.
+ 
+  I TOOK SOME TIME OUT FOR LIFE!
+
 
 ## How to Get Started ##
   > Describe how easy it is to get started.
+  This app is pretty simple to use. Navigate to the web page http://www.parkngo.com/. Register with the web app. Login, click on view listing, choose your desired listing and book. There you go. You just saved yourself so much of time and stress. Have a smooth ride! 
 
 ## Customer Quote ##
   > Provide a quote from a hypothetical customer that describes how they experienced the benefit.
+  There is terrible price to pay for stress in life. Thank you Park n Go for making my experience so smooth and stress-free. 
 
 ## Closing and Call to Action ##
   > Wrap it up and give pointers where the reader should go next.
+If you want to get rid of your stress and have a smooth ride simply visit http://www.parkngo.com/
