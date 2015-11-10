@@ -23,6 +23,22 @@ angular.module('listing', [])
       console.error('error...', error);
     });
   };
+  // $scope.reset = function() {
+  //    var defaultForm = {
+  //             address : "",
+  //             city : "",
+  //             state: "",
+  //             zip: "",
+  //             startDate : "",
+  //             endDate : "",
+  //             price: ""
+  //         };
+  //         $scope.postComments = function(list){
+  //             //make the record pristine
+  //             $scope.postSpaceForm.$setPristine();
+  //             $scope.list = defaultForm;
+  //         };
+  // };
   // $scope.removeSpace()
 
 });

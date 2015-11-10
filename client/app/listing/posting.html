@@ -2,15 +2,24 @@
   <!-- <button><a href="#/listing"><strong>view the parking space listing</strong></a></button> -->
   <h3 class='container-fluid'>Post Form</h3>
   
-  <form name="postSpaceForm" ng-submit='postSpace()' class="input-group container">
-    <span>Address </span><input type='text'ng-model='list.address' class="input-group"><br>
-    <span>City </span><input type="text" ng-model='list.city' class="input-group"><br>
-    <span>State </span><input type="text" ng-model='list.state' class="input-group"><br>
-    <span>Zip Code </span><input type="text" ng-model='list.zip' class="input-group"><br>
-    <span>Start Date </span><input type="text" ng-model='list.startDate' class="input-group"><br>
-    <span>End Date </span><input type="text" ng-model='list.endDate' class="input-group"><br>
-    <span>Price </span><input type="text" ng-model='list.price' class="input-group"><br>
-    <button ng-click="searchAll = null">List Your Space</button>
-  </form>
-  
+  <div class="col-md-5">
+    <form name="postSpaceForm" ng-submit='postSpace()' class="input-group container">
+      <span>Address </span><input type='text'ng-model='list.address' class="input-group"><br>
+      <span>City </span><input type="text" ng-model='list.city' class="input-group"><br>
+      <span>State </span><input type="text" ng-model='list.state' class="input-group"><br>
+      <span>Zip Code </span><input type="text" ng-model='list.zip' class="input-group"><br>
+      <span>Start Date </span><input type="text" ng-model='list.startDate' class="input-group"><br>
+      <span>End Date </span><input type="text" ng-model='list.endDate' class="input-group"><br>
+      <span>Price </span><input type="text" ng-model='list.price' class="input-group"><br>
+      <button ng-click="reset()">List Your Space</button>  
+    </form>
+  </div>
+  <div class="list container col-md-6" ng-repeat="list in data.list">
+    <div class="title">
+      <strong>Address: </strong>{{ list.address }}<br>
+      {{ list.city }} {{ list.state }} {{ list.zip }}<br>
+      <strong>Price: </strong>{{ list.price | currency}}
+      <button id="deleteBtn">Delete</button>
+    </div>
+  </div> 
 </div>

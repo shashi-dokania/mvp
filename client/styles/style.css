@@ -61,3 +61,8 @@ a:hover {
   z-index: -1;
   margin-top: -25px;
 }
+
+#deleteBtn {
+  float: right;
+  margin-bottom: -30px;
+}
