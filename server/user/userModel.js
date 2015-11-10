@@ -1,7 +1,7 @@
 var mongoose = require('mongoose');
 var bcrypt = require('bcrypt-nodejs');
 var Q = require('q');
-var salt_facor = 10;
+var salt_factor = 10;
 
 var UserSchema = new mongoose.Schema({
   username: {
@@ -40,7 +40,7 @@ UserSchema.pre('save', function (next) {
   }
 
   // generate a salt
-  bcrypt.genSalt(salt_facor, function (error, salt) {
+  bcrypt.genSalt(salt_factor, function (error, salt) {
     if (error) {
       return next(error);
     }
