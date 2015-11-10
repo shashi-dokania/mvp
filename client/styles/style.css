@@ -1,3 +1,8 @@
+body {
+  background-size: 100%;
+  background-image: url("http://www.pontiac.com/content/dam/pontiac/northamerica/usa/nscwebsite/en/Home/Vehicles/Pontiac_Vehicles/G8/pontiac-g8-background-image-1024x768.jpg");
+  opacity: 1;
+}
 .list {
   background-color: #e5e5e5;
   height: 90px;
@@ -5,6 +10,7 @@
 }
 
 .bookBtn {
+  padding-top: 20px;
   margin-top: 30px;
   float: right;
 }
@@ -16,4 +22,42 @@
 
 .signupBtn {
   margin-top: 15px;
+}
+
+#header {
+  background-color: #404040;
+  margin-top: 0px;
+  color: white;
+  text-align: center;
+}
+
+.listingBtn {
+  margin-right: 5px;
+  color: black;
+}
+
+.postingBtn {
+  margin-right: -15px;
+  color: black;
+}
+
+.homeBtn {
+  margin-left: -15px;
+  float: left;
+  color: black;    
+}
+
+a {
+  color: inherit; /* blue colors for links too */ 
+}
+
+a:hover {
+  text-decoration: none;
+}
+.background-video {
+  position: absolute;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: -1;
+  margin-top: -25px;
 }

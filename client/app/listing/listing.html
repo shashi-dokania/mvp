@@ -4,16 +4,27 @@
   <!-- <nav class="navigation container-fluid" style="float: right;">
     <button><a href="#/posting">List Parking Space</a></button>
   </nav> -->
-  <center><strong><h3>View Listing<h3></strong></center>
+  <center><strong><h3>All Listing<h3></strong></center>
 </div>
 <div class="list container" ng-repeat="list in data.list">
 
-  <button class="bookBtn">Book</button>
+  <!-- <button class="bookBtn"> -->
+  <script type="text/javascript" src="https://www.simplify.com/commerce/simplify.pay.js"></script>
+  <button class="bookBtn" data-sc-key="sbpb_YzBlMTI5ZDItMTljZC00OWVkLTkyNGEtY2Y4Zjg3NjcxODAw"
+      data-name="ParknGo"
+      data-description="abcd"
+      data-reference="99999"
+      data-amount="1000"
+      data-color="#12B830">
+      Book Now
+  </button>
+  <!-- 5204 7400 0990 0014 -->
+  <!-- </button> -->
   <!-- <div class="list" ng-repeat="list in data.list"> -->
     <div class="title">
-    {{ list.address }}<br>
+    <strong>Address: </strong>{{ list.address }}<br>
     {{ list.city }} {{ list.state }} {{ list.zip }}<br>
-    {{ list.price | currency}}
+    <strong>Price: </strong>{{ list.price | currency}}
     </div>
   <!-- </div> -->
 </div>

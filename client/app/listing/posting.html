@@ -1,6 +1,7 @@
 <div id='postSpace' class='container-fluid'>
   <!-- <button><a href="#/listing"><strong>view the parking space listing</strong></a></button> -->
-  <h3>Post Form</h3>
+  <h3 class='container-fluid'>Post Form</h3>
+  
   <form name="postSpaceForm" ng-submit='postSpace()' class="input-group container">
     <span>Address </span><input type='text'ng-model='list.address' class="input-group"><br>
     <span>City </span><input type="text" ng-model='list.city' class="input-group"><br>
@@ -9,7 +10,7 @@
     <span>Start Date </span><input type="text" ng-model='list.startDate' class="input-group"><br>
     <span>End Date </span><input type="text" ng-model='list.endDate' class="input-group"><br>
     <span>Price </span><input type="text" ng-model='list.price' class="input-group"><br>
-    <button>List Your Space</button>
+    <button ng-click="searchAll = null">List Your Space</button>
   </form>
   
 </div>
