@@ -1,0 +1,19 @@
+<div id='container-fluid'>
+  <!-- Your html here -->
+
+  <!-- <nav class="navigation container-fluid" style="float: right;">
+    <button><a href="#/posting">List Parking Space</a></button>
+  </nav> -->
+  <center><strong><h3>View Listing<h3></strong></center>
+</div>
+<div class="list container" ng-repeat="list in data.list">
+
+  <button class="bookBtn">Book</button>
+  <!-- <div class="list" ng-repeat="list in data.list"> -->
+    <div class="title">
+    {{ list.address }}<br>
+    {{ list.city }} {{ list.state }} {{ list.zip }}<br>
+    {{ list.price | currency}}
+    </div>
+  <!-- </div> -->
+</div>

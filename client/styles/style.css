@@ -1,0 +1,19 @@
+.list {
+  background-color: #e5e5e5;
+  height: 90px;
+  margin-top: 5px;
+}
+
+.bookBtn {
+  margin-top: 30px;
+  float: right;
+}
+
+.title {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.signupBtn {
+  margin-top: 15px;
+}

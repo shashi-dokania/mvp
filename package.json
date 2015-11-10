@@ -1,28 +1,27 @@
 {
-  "name": "2015-10-mvp",
+  "name": "mvp",
   "version": "1.0.0",
-  "description": "ParknGo",
+  "description": "solo project",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/shashi-dokania/2015-10-mvp.git"
-  },
   "author": "shashi",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/shashi-dokania/2015-10-mvp/issues"
-  },
-  "homepage": "https://github.com/shashi-dokania/2015-10-mvp#readme",
   "dependencies": {
+    "bcrypt-nodejs": "0.0.3",
+    "body-parser": "^1.14.1",
+    "bootstrap": "^3.3.5",
     "bower": "^1.6.5",
+    "browser-sync": "^2.9.12",
     "express": "^4.13.3",
     "gulp": "^3.9.0",
     "gulp-if": "^2.0.0",
     "gulp-nodemon": "^2.0.4",
     "gulp-shell": "^0.5.1",
-    "mongoose": "^4.2.4"
+    "jwt-simple": "^0.3.1",
+    "mongoose": "^4.2.4",
+    "morgan": "^1.6.1",
+    "q": "^1.4.1"
   }
 }

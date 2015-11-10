@@ -1,16 +1,17 @@
 {
-  "name": "2015-10-mvp",
-  "description": "ParknGo",
+  "name": "mvp",
+  "description": "solo project",
   "main": "index.js",
   "authors": [
     "shashi"
   ],
   "license": "ISC",
-  "homepage": "https://github.com/shashi-dokania/2015-10-mvp",
+  "homepage": "\"\"",
   "moduleType": [
     "globals",
     "node"
   ],
+  "private": true,
   "ignore": [
     "**/.*",
     "node_modules",
@@ -20,6 +21,7 @@
   ],
   "dependencies": {
     "angular": "~1.4.7",
-    "angular-route": "~1.4.7"
+    "angular-route": "~1.4.7",
+    "angular-mocks": "~1.4.7"
   }
 }

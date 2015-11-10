@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html ng-app='mvp'>
+  <head>
+    <meta charset="utf-8" />
+    <title>Park n Go</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="styles/style.css" />
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script> -->
+  </head>
+  <body>
+    <div class='page-header container-fluid'>
+      <h1>ParknGo</h1>
+      <nav class="navigation container-fluid">
+        <button><a href="#/signin">Home</a></button>
+        <span style="float: right;">
+          <button><a href="#/listing">view the parking space listing</a></button>
+          <button><a href="#/posting">List Parking Space</a></button>
+        </span>
+      </nav>
+    </div>
+
+    <!-- the ng-view directive is where our templates will be loaded into when naviagted to -->
+    <div ng-view></div>
+
+    <script src="bower_components/angular/angular.js"></script>
+    <script src="bower_components/angular-mocks/angular-mocks.js"></script>
+    <script src="bower_components/angular-route/angular-route.js"></script>
+    <!-- <script src="http://code.jquery.com/jquery.js"></script>
+    <script src="styles/js/bootstrap.min.js"></script> -->
+
+    <script src="app/auth/auth.js"></script>
+    <script src="app/listing/listing.js"></script>
+    <script src="app/services.js"></script>
+    <script src="app/app.js"></script>
+  </body>
+</html>
