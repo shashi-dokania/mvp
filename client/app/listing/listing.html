@@ -24,7 +24,15 @@
     <div class="title">
     <strong>Address: </strong>{{ list.address }}<br>
     {{ list.city }} {{ list.state }} {{ list.zip }}<br>
-    <strong>Price: </strong>{{ list.price | currency}}
+    <strong>Price: </strong>{{ list.price | currency}}<br>
+    <!-- <iframe
+  width="80"
+  height="80"
+  frameborder="0" style="border:0"
+  src="https://www.google.com/maps/embed/v1/place?key=AIzaSyANMMYJBTrNY0Vydnt51BnSzfcEnyvoh-I
+    &q={{list.address}},{{list.city}},{{list.state}}{{list.zip}}" allowfullscreen>
+</iframe> -->
+    Google Map: <a href="http://maps.google.com/?q={{list.address}},{{list.city}},{{list.state}}{{list.zip}}">Click to view map</a>
     </div>
   <!-- </div> -->
 </div>
